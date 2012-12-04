@@ -1,7 +1,7 @@
 Municipality-Alarm
 ==================
 TECHNOLOGY
-HTML5
+HTML5/n
 CSS3
 JavaScript
 jQuery.js
