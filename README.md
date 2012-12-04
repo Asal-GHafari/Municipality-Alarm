@@ -1,12 +1,16 @@
 Municipality-Alarm
-==================
-TECHNOLOGY<br/>
+===================
+<hr>
+TECHNOLOGY
+===================
 HTML5<br/>
 CSS3<br/>
 JavaScript<br/>
 jQuery.js<br/>
-PHP<br/>
 MySQL<br/>
+PHP<br/>
+
 =================
+<hr>
 Farzane GHafari Project Manager
 
