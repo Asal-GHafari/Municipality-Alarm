@@ -1,0 +1,187 @@
+*{	
+	padding:0;
+	margin:0;
+}
+body{
+	background-color:#FFF;
+}
+div.clear{
+	clear: both;
+	width:0 !important;
+	height:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	overflow: hidden;
+}
+div{
+	outline:0px dotted #CC0000;
+		
+}
+div.container{
+	width:960px;
+	margin:0 auto;
+	padding:0px 0;
+	background-color:#FFF;
+}
+div.header{
+	height:170px;
+	background-color:#050303;
+}
+div.content{
+	min-height:200px;
+	background-color:#000000;
+	padding:20px;
+	margin-top:5px;
+	 
+}
+div.content-rigth{
+	float:right;
+	width:250px;
+	min-height:400px;
+	border-left:1px solid #CCC;
+	padding-top:0;
+	position:relative;
+	
+}
+div.content-center{
+	margin-right:250px;
+	min-height:400px;
+	border-top:1px solid #CCC;
+
+}
+div.content-center div{
+	height:190px;
+	padding:5px 0 5px 20px;
+	
+}
+div.content-center div div{
+	width:156px;
+	height:154px;
+	float:left;
+	margin:10px;
+}
+div.footer{
+	height:0;
+}
+/*------------------------css fariee--------------*/
+div.header div{
+	float:left;
+}
+form.frm{
+	color:#FFF;
+	text-align:center;
+}
+form.frm  table{
+	direction:rtl;
+	width:99%;
+	height:100%;
+	margin-top:10px;
+
+}
+form.frm  table td{
+	width:300px;
+}
+form.frm textarea{
+	-webkit-border-radius:5px;
+	background-color:#EAEAEA;
+	border:2px double #CCC;
+	text-align:center;
+}
+form.frm table input[type="text"],input.addinput{			
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-webkit-border-radius:6px;
+	-o-border-radius:6px;
+	height:20px;
+	width:190px;
+	text-align:center;
+	background-color:#EAEAEA;
+	border:2px double #CCC;
+}
+form.frm table input[type="text"]:hover,form.frm textarea:hover{
+	background-color:#FFF;
+	color:#666;
+}
+form.frm table select:hover{
+	background-color:#CCC;
+	color:#333;
+}
+form.frm table select{
+	width:70px;
+	height:20px;
+	direction:ltr;
+	text-align:right;
+	background-color:#EAEAEA;
+	border:2px double #CCC;
+}
+form.frm table input[type="submit"],input[type="reset"]{
+	margin-top:20px;
+	width:100px;
+	background-color:#666;
+	color:#FFF;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-ms-border-radius:6px;
+	-webkit-border-radius:6px;
+	-o-border-radius:6px;
+}
+form.frm table input[type="submit"]:hover,input[type="reset"]:hover{
+	background-color:#FF3535;
+}
+form.frm table select:hover{
+	background-color:#FFF;
+	color:#333;
+} 
+/*----------------menu-------------------------------------------------------------------------*/
+div.content-rigth ul {
+	width:245px;
+	height:100px;
+	text-align:right;
+	word-spacing:4px;
+	margin-top:30px;
+	position:absolute;
+	right:0;
+}
+div.content-rigth ul li{	
+	list-style:none;
+}
+div.content-rigth ul li a{
+	color:#CCCCCC;
+	text-decoration:none;
+}
+div.content-rigth ul a:hover{
+	color:#FFFFFF;
+}
+div.content-rigth ul li:hover{
+	border-left:1px solid #FFF;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
