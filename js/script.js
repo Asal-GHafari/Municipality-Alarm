@@ -11,8 +11,8 @@ $(function(){
 			valueposition=$('#posit').html();
 			if(valueposition==''){
 				number=$(this).val();
-			for(var i=0; i<number ; i++){
-				document.getElementById('posit').innerHTML +="<input type='text' name='addjob' class='addinput'/></br>";
+			for(var i=1; i<=number ; i++){
+				document.getElementById('posit').innerHTML +="دربند "+i+": <input type='text' name='addjob' class='addinput'/>&nbsp;"+"متراژ: <input type='text' name='addjob' class='addinput'/></br>";
 			}
 			}else if(valueposition!=''){
 					
@@ -20,13 +20,13 @@ $(function(){
 				//alert('res=>'+res);
 				if(res>=number){
 					$('#posit').empty();
-					for(var i=0; i<res ; i++){
-						document.getElementById('posit').innerHTML +="<input type='text' name='addjob' class='addinput'/></br>";
+					for(var i=1; i<=res ; i++){
+						document.getElementById('posit').innerHTML +="دربند "+i+": <input type='text' name='addjob' class='addinput'/>&nbsp;"+"متراژ: <input type='text' name='addjob' class='addinput'/></br>";
 					}
 				}else if(res<number){
 					$('#posit').empty();
-					for(var i=0; i<res ; i++){
-						document.getElementById('posit').innerHTML +="<input type='text' name='addjob' class='addinput'/></br>";
+					for(var i=1; i<=res ; i++){
+						document.getElementById('posit').innerHTML +="دربند "+i+": <input type='text' name='addjob' class='addinput'/>&nbsp;"+"متراژ: <input type='text' name='addjob' class='addinput'/></br>";
 					}
 				}
 			}

@@ -27,11 +27,13 @@
         	<?php include("php/menu.php"); ?>
         </div>
         	<div class="content-center">
+            	<img  src="pic-ekhtar/insert-link (1).png" class="bg-insert" width="250"/>
             	<form action="" method="post" class="frm">
-            	<table border="4"  align="right" cellspacing="4px" >
+            	<table border="0"  align="right" cellspacing="4px" >
                     <tr>
-                        <td colspan=""><input type="text" placeholder="نام" name="name" /></td>
-                        <td rowspan="11" id="posit"></td>
+                        <td   colspan=""><input type="text" placeholder="نام" name="name" /></td>
+                        <td  style="top:0; position:absolute;" "rowspan="14" id="posit"></td>
+                       
                     </tr>
                      <tr>
                         <td colspan=""><input type="text" placeholder="فامیل"  name="family" /></td>
