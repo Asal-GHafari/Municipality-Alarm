@@ -25,11 +25,11 @@ div.container{
 }
 div.header{
 	height:170px;
-	background-color:#050303;
+	background-image:url(../picekhtar/bg.jpg);
 }
 div.content{
 	min-height:200px;
-	background-color:#000000;
+	background-color:#FFF;
 	padding:20px;
 	margin-top:5px;
 	 
@@ -41,14 +41,14 @@ div.content-rigth{
 	border-left:1px solid #CCC;
 	padding-top:0;
 	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
 	
 }
 div.content-center{
 	margin-right:250px;
-	min-height:400px;
+	min-height:460px;
 	border-top:1px solid #CCC;
-	position:relative;
-
+	background:url(../picekhtar/u.png) no-repeat left bottom scroll;
 }
 div.content-center div{
 	height:190px;
@@ -65,97 +65,100 @@ div.footer{
 	height:0;
 }
 /*------------------------css fariee--------------*/
-.bg-insert{
-position:absolute;
-bottom:0px;
-left:120px;
-opacity:0.4;
-}
 div.header div{
 	float:left;
 }
 form.frm{
-	color:#FFF;
 	text-align:center;
 }
-form.frm  table{
+fieldset{
+	border-radius:30px;
+	width:250px;
+	height:100px;
+	background-color:#CCC;
+	
+}
+form.frm  table{    	
 	direction:rtl;
-	width:99%;
-	height:100%;
-	margin-top:10px;
-	position:relative;
-
+	width:150px;
+	height:200px;
+	margin-top:20px;
+	margin-right:20px;
 }
 form.frm  table td{
 	width:300px;
 }
 form.frm textarea{
-	-webkit-border-radius:5px;
-	background-color:#EAEAEA;
+	border-radius:30px;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	-ms-border-radius:30px;
+	-o-border-radius:30px;
+	background-color:#EEE;
 	border:2px double #CCC;
 	text-align:center;
+	color:#999;
+	padding:10px;
 }
-input.addinput{
-	border-radius:6px;
-	-moz-border-radius:6px;
-	-ms-border-radius:6px;
-	-webkit-border-radius:6px;
-	-o-border-radius:6px;
-	height:20px;
-	width:90px !important;
+form.frm table input[type="text"],input.addinput{			
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-ms-border-radius:10px;
+	-webkit-border-radius:10px;
+	-o-border-radius:10px;
+	height:30px;
+	width:250px;
 	text-align:center;
-	background-color:#EAEAEA;
+	background-color:#EEE;
 	border:2px double #CCC;
-	margin-top:5px !important; 
-	
-	
-	
-}
-form.frm table input[type="text"]{			
-	border-radius:6px;
-	-moz-border-radius:6px;
-	-ms-border-radius:6px;
-	-webkit-border-radius:6px;
-	-o-border-radius:6px;
-	height:20px;
-	width:190px;
-	text-align:center;
-	background-color:#EAEAEA;
-	border:2px double #CCC;
+	color:#999;
 }
 form.frm table input[type="text"]:hover,form.frm textarea:hover{
-	background-color:#FFF;
-	color:#666;
+	background-color:#999;
+	color:#FFF;
 }
 form.frm table select:hover{
-	background-color:#CCC;
-	color:#333;
+	background-color:#999;
+	color:#FFF;
+
+}
+table.serch-tbl{
+	width:620px;
+	margin-right:20px;
+	margin-top:10px;	
+	
 }
 form.frm table select{
-	width:70px;
-	height:20px;
+	width:220px;
+	height:23px;
 	direction:ltr;
-	text-align:right;
-	background-color:#EAEAEA;
-	border:2px double #CCC;
+	text-align:justify;
+	background-color:#EEE;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-o-border-radius:6px;
+	-ms-border-radius:6px;
+	-moz-border-radius:6px;
+	border-color:#CCC;
+	color:#999;
 }
 form.frm table input[type="submit"],input[type="reset"]{
-	margin-top:20px;
-	width:100px;
-	background-color:#666;
+	width:180px;
+	height:30px;
+	background-color:#CCC;
 	color:#FFF;
 	border-radius:6px;
 	-moz-border-radius:6px;
 	-ms-border-radius:6px;
-	-webkit-border-radius:6px;
+	-webkit-border-radius:10px;
 	-o-border-radius:6px;
 }
 form.frm table input[type="submit"]:hover,input[type="reset"]:hover{
-	background-color:#FF3535;
+	background-color:#999;
 }
 form.frm table select:hover{
-	background-color:#FFF;
-	color:#333;
+	background-color:#666;
+	color:#FFF;
 } 
 /*----------------menu-------------------------------------------------------------------------*/
 div.content-rigth ul {
@@ -178,12 +181,15 @@ div.content-rigth ul a:hover{
 	color:#FFFFFF;
 }
 div.content-rigth ul li:hover{
-	border-left:1px solid #FFF;	
+	border-left:1px solid #CCC;	
 }
 
+/*---------------serch-------------------*/
 
-
-
+table.serch-tbl td{
+	width:120px;
+	text-align:center;
+}
 
 
 
